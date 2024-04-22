@@ -1,0 +1,19 @@
+# General
+DATA_PATH: 'books/'
+CHROMA_PATH: 'db/'
+
+# LLM
+LLM_NAME: 'llama3'
+LLM_TEMPERATURE: 0.3
+LLM_TOP_P: 0.3
+
+# Embedding
+EMBEDDING_MODEL_NAME: 'hkunlp/instructor-large'
+EMBEDDING_DEVICE: 'cuda:0'
+
+# Retriever
+RETRIEVER_TOP_K: 6
+
+# Misc
+CHUNK_SIZE: 1000
+CHUNK_OVERLAP: 100

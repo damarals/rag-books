@@ -1,0 +1,8 @@
+# virtualenv
+.venv
+
+# books
+books
+
+# db
+db
